@@ -1,0 +1,12 @@
+daily_revenue_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: airflow
+      password: airflow_password
+      port: 5432
+      dbname: analytics
+      schema: analytics
+      threads: 2
